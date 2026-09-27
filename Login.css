@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f7fb;
+    font-family: Arial, sans-serif;
+}
+.Logindiv
+{
+    width: 400px;
+
+    padding: 28px 32px;
+
+    background-color: #ffffff;
+
+    border-radius: 12px;
+
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+.Logindiv h1{
+    text-align: center;
+    margin-bottom: 24px;
+    font-size: 28px;
+    color: #172033;
+}
+.inputboxes input{
+    width: 100%;
+    height: 44px;
+    padding: 10px 12px;
+    margin-bottom: 12px;
+    border: 1px solid #4f46e5;
+    border-radius: 7px;
+    background-color: #ffffff;
+    font-size: 14px;
+    outline: none;
+    
+}
+.inputboxes input:focus{
+    border-color: black;
+}
+.Logindiv button{
+    width: 100%;
+    height: 44px;
+
+    margin-top: 4px;
+
+    border: none;
+    border-radius: 7px;
+
+    background-color: #4f46e5;
+    color: white;
+
+    font-size: 15px;
+    font-weight: 600;
+
+    cursor: pointer;
+    
+}
+.Logindiv button:hover {
+    background-color: #4338ca;
+}
+.Logindiv p{
+ margin-top: 16px;
+
+    text-align: center;
+
+    font-size: 14px;
+
+    color: black;
+}
+.Logindiv p a{
+    color: #4f46e5;
+   
+    font-weight: 600;
+
+    text-decoration: none;
+}
+.Logindiv p a:hover{
+    text-decoration: underline;
+}
+#checkbox{
+    margin-bottom: 12px;
+}
+.remember-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+   
+}
+.Logindiv a{ 
+       color: #4f46e5;
+       font-weight: 600;
+       text-decoration: none;
+       font-size: 15px;
+}
+.Logindiv a:hover{
+    text-decoration: underline;
+}
+.inputboxes {
+    position: relative;
+}
+
+#person {
+    position: absolute;
+    right: 12px;
+    top: 5px;
+}
+
+#lock {
+    position: absolute;
+    right: 12px;
+    top: 63px;
+}
